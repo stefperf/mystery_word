@@ -1,6 +1,11 @@
 # Output of running mystery_word.py; run time ~= 1h on my MacBook.
 # The end shows a heuristic solution for Riddler Classic @ https://fivethirtyeight.com/features/can-you-guess-the-mystery-word/
 # I probably could have found a better solution if I had expanded the heuristic search space and let computation run much longer.
+#
+# The best solutions found were:
+# choice 631 / 653: ('bared', 'coaly', 'penne', 'suits') => guess probability = 0.7266095414544917
+# choice 634 / 653: ('benne', 'coaly', 'pared', 'suits') => guess probability = 0.7266095414544917
+#
 
 letter,-1,0,1,2,3,4
 a,0.4448818897637795,0.05754979157017138,0.17125984251968504,0.0984251968503937,0.07642427049559981,0.041222788327929596
