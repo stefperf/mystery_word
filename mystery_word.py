@@ -274,8 +274,3 @@ for ci, choice in enumerate(choices):
     probability = guess_prob(choice)
     print(f'choice {ci} / {n_choices}: {choice} => guess probability = {probability}')
     guess_probabilities.append(probability)
-sorted_i = list(reversed(np.argsort(guess_probabilities)))
-n_top_choices = 10
-print(f'Best choices for the first {N - 1} words:')
-for i in sorted_i[:n_top_choices]:
-    print(choices[i], 'win probability =', guess_probabilities[i])
