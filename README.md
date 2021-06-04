@@ -5,4 +5,4 @@ Using Python 3.9
 
 WARNING:
 I overlooked the information that the first letter of the word was always given. 
-Thus, I attempted to solve a fundamentally different puzzle.
+Thus, I attempted to solve a fundamentally different puzzle. However, the code could be rather easily adapted to the published puzzle.
